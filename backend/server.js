@@ -1,6 +1,3 @@
-let x = 10;
-if (x > 5) {
-    console.log('High');
-} else {
-    console.log('Low');
+for (let i = 0; i < 3; i++) {
+    console.log(i);
 }
