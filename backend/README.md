@@ -3,8 +3,10 @@ mkdir backend
 cd backend
 ```
 
+```bash
+npm init -y
+```
 
 ```bash
-mkdir backend
-cd backend
+npm run start
 ```
