@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: WebDevelopmentBootcamp-Beginner-ComputerClub-BackEnd
+    runtime: node
+    plan: free
+    buildCommand: npm install --frozen-lockfile
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
